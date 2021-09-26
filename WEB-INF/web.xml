@@ -1,0 +1,99 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+
+  <welcome-file-list>
+    <welcome-file>HomePage.jsp</welcome-file>
+  </welcome-file-list>     
+
+
+
+<!-- RegisterPage.java -->
+  <servlet>
+    <servlet-name> Servlet Register </servlet-name>
+    <description> Register Form </description>
+    <servlet-class> RegisterPage </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> Servlet Register </servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+
+
+<!--LoginPage.java-->
+
+  <servlet>
+    <servlet-name> Servlet Login </servlet-name>
+    <description> Login Form </description>
+    <servlet-class> LoginPage </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> Servlet Login </servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+
+<!--AdminLogin.java-->
+
+  <servlet>
+    <servlet-name> Servlet Admin Login </servlet-name>
+    <description> Admin Login Form </description>
+    <servlet-class> AdminLogin </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> Servlet Admin Login </servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+
+
+<!--RoutePage.java-->
+
+  <servlet>
+    <servlet-name> Servlet Route Page </servlet-name>
+    <description> Route Form </description>
+    <servlet-class> RoutePage </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> Servlet Route Page </servlet-name>
+    <url-pattern>/route</url-pattern>
+  </servlet-mapping>
+
+
+
+<!--AddBookingPage.java>-->
+  <servlet>
+    <servlet-name> Servlet Booking </servlet-name>
+    <description> Booking Form </description>
+    <servlet-class> AddBookingPage </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> Servlet Booking </servlet-name>
+    <url-pattern>/Booking</url-pattern>
+  </servlet-mapping>
+
+
+
+<!--UpdateBookingPage.java>-->
+  <servlet>
+    <servlet-name> Servlet Update Booking </servlet-name>
+    <description> Booking Update </description>
+    <servlet-class> UpdateBookingPage </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> Servlet Update Booking </servlet-name>
+    <url-pattern>/UpdateBooking</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>

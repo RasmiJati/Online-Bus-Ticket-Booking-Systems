@@ -1,0 +1,27 @@
+                body{
+                    margin: 0;
+                    background-image: url('../image/homes.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                }
+                h1{
+                    font-family: cursive;
+                    font-size: 50px;
+                    color: #aaa;
+                    text-align: center;
+                    padding: 50px;
+                }
+                div{
+                    margin: 20px auto;
+                    text-align: center;
+                }
+                a{
+                    padding: 10px;
+                    margin: 20px;
+                    background-color: #66c35a;
+                    text-decoration: none;
+                    display: inline-block;
+                    color: #fff; 
+                    font-size: 25px;
+                }

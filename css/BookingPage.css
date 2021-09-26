@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-image: url('../image/pokhara2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.book{
+    width: 600px;
+    box-shadow: 0px 1px 10px #a8a8a8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.book h1{
+    color: #aaa;
+    text-align: center;
+    padding: 8px;
+    margin-top: 0;
+    background-color: #c0eb30;
+}           
+.book .input-group label{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    width: 80%;
+    background-color: #fff;
+    outline: none;
+    height: 15px;
+    padding: 8px; 
+    text-align: center;
+    color: #e0587c;
+}
+.book .input-group input{
+    height: 15px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #60bc54;
+    background-color: #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px; 
+}
+.book .input-group select{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 20px;
+    border: 1px solid #60bc54;
+    border-radius: 5px;
+}
+.book .input-group select option{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 20px;
+    font-size: 15px;
+    background-color: #fff;
+    outline: none;
+    padding: 10px; 
+    border: 1px solid #60bc54;
+    border-radius: 5px;
+}
+.book .input-group span{
+    height: 20px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #60bc54;
+    border-radius: 5px;
+}
+.book .input-group span #reply{
+    height: 20px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #60bc54;
+    background-color: #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px; 
+}
+.book .input-group span #totalFare{
+    height: 20px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #60bc54;
+    background-color: #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px; 
+}
+.book .input-group span #totalFare #total{
+    height: 20px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #60bc54;
+    background-color: #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px; 
+}
+.book .btn{
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    color:darkgreen;
+    padding: 5px;
+    border-radius:20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.book .btn:hover{
+    background-color: #54b0bc;
+    border: 0;
+    transform: scale(0.7);
+}

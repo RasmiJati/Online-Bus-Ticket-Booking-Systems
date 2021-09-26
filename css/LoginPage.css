@@ -1,0 +1,89 @@
+            body{
+                margin: 0;
+                background-image: url('../image/pokhara3.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .menu{
+                margin: 20px auto;
+                text-align: center;
+            }
+            .menu a{
+                padding: 10px;
+                margin: 20px;
+                background-color: #66c35a;
+                text-decoration: none;
+                display: inline-block;
+                color: #fff; 
+                font-size: 25px;   
+            }
+            .login{
+                width: 500px;
+                box-shadow: 0px 1px 10px #a8a8a8;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                background-color: #fff;
+                padding-bottom: 10px;
+            }
+            .login h1{
+                color: #aaa;
+                text-align: center;
+                padding: 15px;
+                margin-top: 0;
+                background-color: #c0eb30;
+            }
+            .login p{
+                text-align: center;
+                font-size: 20px;
+                color: #e0587c;
+                margin: 10px;
+            }
+            .login input{
+                display: block;
+                margin: auto;
+                font-size: 20px;
+                width: 80%;
+                border: 1px solid #60bc54;
+                background-color: #fff;
+                outline: none;
+                border-radius: 5px;
+                height: 40px;
+                padding: 10px; 
+                margin: auto;
+                text-align: center;
+            }
+            .login button{
+                display: block;
+                width: 80%;
+                margin: auto;
+                font-size: 15px;
+                color:darkgreen;
+                padding: 10px;
+                border-radius:20px;
+                text-transform: uppercase;
+                font-weight: bold;
+                border: 2px solid black;
+                transition: all 0.3s linear;
+                cursor: pointer;
+            }
+            .login button:hover{
+                background-color: #54b0bc;
+                border: 0;
+                transform: scale(0.7);
+            }
+            .login a{
+                padding: 5px;
+                border-radius: 3px;
+                background-color: #c0eb30;
+                text-decoration: none;
+                display: inline-block;
+                color: #000;
+            }
+            .login a:hover{
+                color: #fff;
+                background-color: #4cce56;
+                transition: all 0.3s;
+            }
